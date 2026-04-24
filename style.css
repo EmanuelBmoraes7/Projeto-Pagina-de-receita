@@ -13,26 +13,29 @@ body{
 }
 
 #page{
-    box-sizing: border-box;
+    box-sizing:border-box;
     width: 800px;
     padding: 24px;
     background-color: #F0E8C2;
     border-radius: 24px;
     margin: 48px auto 28px;
-}
 
-img {
-    border-radius: 16px;
+
+    img {
+    border-radius: 16px;}
 }
-main{
+    main{
     padding: 24px;
 }
+
 section + section{
     margin-top: 24px;
 }
 #about p + p{
     margin-top: 12px;
 }
+
+
 
 
 h1{
@@ -48,7 +51,7 @@ h1,h2{
     line-height: 150%;
 }
 ul{
-    padding: left 24px;;
+    padding-left:  24px;;
 }
 footer{
     color: #F0E8C2;
